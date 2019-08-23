@@ -4,7 +4,7 @@ pipeline {
         label 'master' 
     }
     tools {
-        Local Maven 'apache-maven-3.6.1' 
+        'Local Maven' 'apache-maven-3.6.1' 
     }
     stages {
         stage('build') {
